@@ -1,0 +1,52 @@
+{
+  "model_type": "XGBoost Enhanced",
+  "timestamp": "20250623_011929",
+  "performance_metrics": {
+    "test_mae": 118.8170114852242,
+    "test_r2": 0.23525320190681542,
+    "test_rmse": 155.19639265112906
+  },
+  "feature_count": 28,
+  "selected_features": [
+    "DayOfWeek",
+    "Month",
+    "Quarter",
+    "IsWeekend",
+    "IsMonthStart",
+    "IsMonthEnd",
+    "DayOfWeek_sin",
+    "DayOfWeek_cos",
+    "Month_sin",
+    "Month_cos",
+    "DayOfYear_sin",
+    "DayOfYear_cos",
+    "Revenue_Lag_14",
+    "Revenue_Lag_30",
+    "Revenue_MA_7",
+    "Revenue_MA_30",
+    "Revenue_Volatility_7",
+    "Revenue_Volatility_30",
+    "Revenue_Lag_1",
+    "Revenue_Lag_2",
+    "Revenue_Lag_3",
+    "Revenue_Lag_7",
+    "Revenue_Lag_1 Revenue_Lag_2",
+    "Revenue_Lag_1 Revenue_Lag_3",
+    "Revenue_Lag_1 Revenue_Lag_7",
+    "Revenue_Lag_2 Revenue_Lag_3",
+    "Revenue_Lag_2 Revenue_Lag_7",
+    "Revenue_Lag_3 Revenue_Lag_7"
+  ],
+  "hyperparameters": {
+    "subsample": 0.8,
+    "n_estimators": 300,
+    "max_depth": 3,
+    "learning_rate": 0.01,
+    "colsample_bytree": 0.8
+  },
+  "training_data_period": {
+    "start_date": "2023-03-31 00:00:00",
+    "end_date": "2024-09-13 00:00:00",
+    "total_days": 533
+  }
+}
