@@ -1,0 +1,11 @@
+# Dashboard-specific dependencies (no TensorFlow needed for dashboard)
+streamlit>=1.40.0
+plotly>=5.27.0
+pandas>=2.2.3
+numpy>=1.24.0
+scikit-learn>=1.7.0
+xgboost<=3.0.2
+openpyxl
+matplotlib>=3.10.1
+seaborn>=0.13.2
+joblib>=1.3.0
